@@ -7,19 +7,22 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nos dias atuais, a intermediação entre doadores e receptores de sangue é uma necessidade crucial para garantir o acesso ao sangue e seus componentes para pacientes que precisam de transfusão sanguínea. Com o objetivo de melhorar a eficiência e a acessibilidade desse processo, um projeto de plataforma digital de intermediação será criado. A plataforma permite que doadores de sangue e receptores se cadastrem para encontrar uma combinação adequada de tipo sanguíneo e localização, o que otimiza o processo de doação e transfusão.
+
+O projeto também oferece uma interface amigável e intuitiva para que os doadores possam acompanhar seu histórico de doações, agendar suas próximas doações e receber notificações sobre campanhas de doação de sangue. Além disso, os receptores podem receber informações importantes sobre o processo de transfusão e encontrar doadores próximos a eles, o que ajuda a garantir um acesso rápido e seguro ao sangue e seus componentes. Em última análise, a plataforma ajuda a salvar vidas ao facilitar o processo de doação e transfusão de sangue.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Maria Eduarda Araújo Pinto Santiago
+* Ícaro Fernandes Rocha
+* Thiago Henrique Lacerda Ferreira
+* Pedro Henrique do Vale Gonçalves
+* Davi Iwasaki Silva
+* Kayky 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Cristiano Geraldo Teixeira Silva
 
 # Planejamento
 
