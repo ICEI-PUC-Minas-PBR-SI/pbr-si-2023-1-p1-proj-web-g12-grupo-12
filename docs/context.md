@@ -1,13 +1,8 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+BloodBridge é uma aplicação desenvolvida para facilitar o processo de doação de sangue, conectando doadores e receptores em uma única plataforma. A doação de sangue é um ato nobre e que pode salvar muitas vidas, no entanto, nem sempre é fácil encontrar um doador compatível quando se precisa de sangue com urgência. Com o BloodBridge, esse processo é simplificado, permitindo que os usuários encontrem doadores ou receptores de sangue de acordo com a região e o tipo sanguíneo, garantindo que a doação chegue ao destino certo e salve vidas.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Além disso, o cadastro na plataforma é fácil e rápido, e os usuários podem selecionar suas preferências de notificação, permitindo que sejam alertados sobre a necessidade de doações em sua região ou quando houver uma nova solicitação compatível com seu tipo sanguíneo. Com isso, o BloodBridge se torna uma ferramenta essencial para quem precisa de sangue com urgência, bem como para aqueles que desejam ajudar a salvar vidas através da doação de sangue.
 
 ## Problema
 
