@@ -18,7 +18,6 @@ O projeto também oferece uma interface amigável e intuitiva para que os doador
 * Thiago Henrique Lacerda Ferreira
 * Pedro Henrique do Vale Gonçalves
 * Davi Iwasaki Silva
-* Kayky 
 
 ## Orientador
 
