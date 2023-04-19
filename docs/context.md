@@ -12,12 +12,10 @@ Além disso, muitas pessoas têm dificuldades para encontrar doadores compatíve
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral da aplicação é servir como intermediador entre doador e receptor, conectar ambos e facilitar o contato para que as pessoas que necessitem de doação de sangue tenham uma maior quantidade de possíveis doadores ao seu dispor, assim, dependendo menos dos seus circulos sociais e familiares que nem sempre estão a diposição.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivo específico 1: Resolver o problema das pessoas que precisam esperar por um longo tempo até encontrar um doador de sangue compatível. Através do cadastro e dos filtros de tipo sanguíneo e de região pretendemos apresentar os doadores em potencial e os meios de contato para o receptor.
+Objetivo específico 2: Resolver o problema para pessoas com tipos sanguíneos raros encontrarem doadores de sangue compatíveis. Os filtros na busca que disponibilizaremos terá como principal função encontrar doadores compatíveis com o receptor.
 
 ## Justificativa
 
@@ -30,13 +28,4 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público alvo da respectiva Aplicação WEB serão todos os indivíduos que tenham interesse em preservar suas vidas, salvar outras, ou ambas as opções por meio de uma simplificação na procura de material sanguíneo. De maneira mais prática, usuários mais solidários, com foco e prazer na ajuda dos necessitados serão, possivelmente, o maior público alvo, ao lado dos próprios necessitados, pessoas que precisam de doação de sangue, seja por baixa oferta de sangue em geral, ou seja pela raridade de seu tipo sanguíneo. Sendo somente necessário que o usuário tenha acesso à algum dispositivo conectado a internet e baixo nivel de conhecimento sobre tecnologia.
