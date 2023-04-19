@@ -6,16 +6,9 @@ Além disso, o cadastro na plataforma é fácil e rápido, e os usuários podem 
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A doação de sangue é um ato fundamental para a saúde pública, já que é essencial para a realização de cirurgias, tratamento de doenças crônicas e emergências médicas. No entanto, muitas vezes, os bancos de sangue encontram-se com baixos estoques devido à falta de doadores. Esse problema pode ser agravado em casos de tipos sanguíneos raros, que são mais difíceis de encontrar.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Além disso, muitas pessoas têm dificuldades para encontrar doadores compatíveis quando precisam de transfusões de sangue. Esse processo pode ser complicado e demorado, e muitas vezes envolve buscar doadores por meio de redes sociais, grupos de WhatsApp ou até mesmo divulgação em meios de comunicação. Isso pode ser especialmente difícil em áreas remotas ou em momentos de grande demanda.
 
 ## Objetivos
 
