@@ -18,13 +18,9 @@ Objetivo específico 1: Resolver o problema das pessoas que precisam esperar por
 Objetivo específico 2: Resolver o problema para pessoas com tipos sanguíneos raros encontrarem doadores de sangue compatíveis. Os filtros na busca que disponibilizaremos terá como principal função encontrar doadores compatíveis com o receptor.
 
 ## Justificativa
+A razão para a criação da aplicação Bloodbridge é a necessidade de intermediar e facilitar a doação de sangue, que muitas vezes é vista como um processo complicado e demorado. A falta de alguns tipos sanguíneos raros e o baixo nível dos bancos de sangue podem colocar em risco a vida de muitas pessoas. Além disso, muitas pessoas que necessitam de doações de sangue têm dificuldade em encontrar doadores compatíveis e podem depender exclusivamente do seu próprio círculo social, o que pode ser insuficiente para suprir a demanda.
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A aplicação Bloodbridge se torna importante porque pode diminuir o tempo de espera para encontrar um doador com tipo sanguíneo compatível e ampliar as possibilidades de doação. Com a facilidade de encontrar doadores e receptores de sangue em potencial próximos, baseados em filtros de região e tipo sanguíneo, a aplicação pode ajudar a salvar muitas vidas.
 
 ## Público-Alvo
 
