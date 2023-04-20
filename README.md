@@ -13,8 +13,6 @@ O projeto também oferece uma interface amigável e intuitiva para que os doador
 
 ## Integrantes
 
-* Maria Eduarda Araújo Pinto Santiago
-* Ícaro Fernandes Rocha
 * Thiago Henrique Lacerda Ferreira
 * Pedro Henrique do Vale Gonçalves
 * Davi Iwasaki Silva
