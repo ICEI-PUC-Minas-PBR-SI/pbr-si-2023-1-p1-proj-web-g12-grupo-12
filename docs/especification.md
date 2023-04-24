@@ -65,7 +65,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Cadastro de usuários | ALTA | |
 |RF-004| permitir que os pacientes busquem doadores com base em critérios como tipo sanguíneo, localização e disponibilidade. | ALTA | |
 |RF-005| Feedback dos usuários | MÉDIA | |
-|RF-006| permitir que os doadores agendem a doação de sangue | Alta | |
+|RF-006| permitir que os doadores/receptores tenham acesso aos contatos uns dos outros | Alta | |
 
 
 ### Requisitos não Funcionais
