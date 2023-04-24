@@ -6,7 +6,19 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Nome: Ana
+Idade: 27 anos
+Profissão: Estudante
+Localização: Rio de Janeiro, Brasil
+
+Perfil:
+Ana é uma estudante de jornalismo que mora no Rio de Janeiro. Ela é uma pessoa preocupada com o bem-estar das pessoas e sempre que pode se voluntaria em ações sociais. Ana acredita que doar sangue é uma das melhores formas de ajudar outras pessoas e salvar vidas.
+
+Ana quer doar sangue regularmente, mas muitas vezes tem dificuldades para encontrar um local de doação próximo e que tenha um horário compatível com sua rotina de estudante. Ela também tem receio de ir a locais desconhecidos e não saber se o processo de doação será seguro e eficiente.
+
+Ana encontrou a Bloodbridge, uma plataforma online que facilita o processo de doação de sangue, conectando doadores com as pessoas que precisam receber sangue mais próximas e agendando horários que sejam compatíveis com sua rotina. A plataforma oferece informações sobre os requisitos para doação de sangue, os benefícios da doação e é confiável e segura.
+
+Ana é uma pessoa muito engajada nas redes sociais e em grupos de discussão sobre saúde e doação de sangue. Ela gosta de compartilhar informações úteis e incentivar outras pessoas a doarem sangue. Ela também é muito ativa em eventos sociais e de voluntariado em sua comunidade, sempre buscando formas de ajudar outras pessoas.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
