@@ -17,11 +17,21 @@ Localização: Rio de Janeiro, Brasil
 
 Perfil:
 Ana é uma estudante de jornalismo que mora no Rio de Janeiro. Ela é uma pessoa preocupada com o bem-estar das pessoas e sempre que pode se voluntaria em ações sociais. Ana acredita que doar sangue é uma das melhores formas de ajudar outras pessoas e salvar vidas.
-
 Ana quer doar sangue regularmente, mas tem dificuldades para encontrar um local de doação próximo e que tenha um horário compatível com sua rotina de estudante. Ela também tem receio de ir a locais desconhecidos e não saber se o processo de doação será seguro e eficiente.
-
 Ana é uma pessoa muito engajada nas redes sociais. Ela gosta de compartilhar informações úteis e incentivar outras pessoas a doarem sangue. Ela também é muito ativa em eventos sociais e de voluntariado em sua comunidade, sempre buscando formas de ajudar outras pessoas.
 
+### Persona 2
+
+Nome: Paulo
+
+Idade: 20 anos
+
+Profissão: Estudante
+
+Localização: Minas Gerais, Brasil
+
+Perfil:
+Paulo é um estudante de administração que não possui trabalho formal. Ele mora com seus avós que já possúem uma idade avançada e frequentemente precisam ir ao hospital para exames de rotina e eventuais complicações médicas. Paulo é dedicado aos seus avós e possui certo domínio sobre tecnologias frequentemente ajudando seus avós com questões que envolvem aparelhos eletrônicos. Paulo é bem de saúde mas seus avós não, seu avô precisa de constantes transfusões de sangue para a hemodiálise e sua avó também já precisou devido à um acidente.
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
