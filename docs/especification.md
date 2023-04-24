@@ -47,11 +47,10 @@ Perfil: André trabalha como eletricista em uma firma no centro de São Paulo, t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Usuário do sistema  | Receber incentivos para doação     | Sempre que puder, doar                 |
 |Usuário do sistema  | Filtrar outros usuários por região | Poder encontrar usuários próximos      |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
@@ -80,12 +79,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-|RF-003| Cadastro de usuários | ALTA | |
-|RF-004| permitir que os pacientes busquem doadores com base em critérios como tipo sanguíneo, localização e disponibilidade. | ALTA | |
-|RF-005| Feedback dos usuários | MÉDIA | |
-|RF-006| permitir que os doadores/receptores tenham acesso aos contatos uns dos outros | ALTA | |
+|RF-001| Cadastro de usuários  | ALTA |  |
+|RF-002| Usuário cadastrado deve conseguir alterar seu status entre doador/receptor | ALTA | |
+|RF-003| Usuário cadastrado deve conseguir atualizar seu endereço | ALTA | |
+|RF-004| Exibir na tela principal a ficha dos outros usuários da aplicação | ALTA | |
+|RF-005| Se o status do usuário for de "doador" apresentar a ficha de possíveis receptores | ALTA | |
+|RF-006| Se o status do usuário for de "recptor" apresentar a ficha de possíveis doadores | ALTA | |
+|RF-007| permitir que os usuários filtrem as buscas por localidade, tipo sanguíneo e disponibilidade | ALTA | |
+|RF-008| Feedback dos usuários | MÉDIA | |
+|RF-009| permitir que os doadores/receptores tenham acesso aos contatos uns dos outros | ALTA | |
 
 
 ### Requisitos não Funcionais
