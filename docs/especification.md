@@ -32,17 +32,18 @@ Localização: Minas Gerais, Brasil
 
 Perfil:
 Paulo é um estudante de administração que não possui trabalho formal. Ele mora com seus avós que já possúem uma idade avançada e frequentemente precisam ir ao hospital para exames de rotina e eventuais complicações médicas. Paulo é dedicado aos seus avós e possui certo domínio sobre tecnologias frequentemente ajudando seus avós com questões que envolvem aparelhos eletrônicos. Paulo é bem de saúde mas seus avós não, seu avô precisa de constantes transfusões de sangue para a hemodiálise e sua avó também já precisou devido à um acidente.
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+### Persona 3
+
+Nome: André
+
+idade: 25 anos
+
+Profissão: Eletricista
+
+Localização: São Paulo, Brasil
+
+Perfil: André trabalha como eletricista em uma firma no centro de São Paulo, tem como hobby fazer viagens de moto com seus colegas do motoclube, André sabe os riscos que andar de moto traz, principalmente por conhecer várias pessoas que sofreram acidentes enquanto viajavam. André possui seu tipo sanguíneo (O-) bordado no seu colete de motoclube. Ele sabe que seu sangue é um raro doador universal e por isso realiza doações regularmente.
 
 ## Histórias de Usuários
 
