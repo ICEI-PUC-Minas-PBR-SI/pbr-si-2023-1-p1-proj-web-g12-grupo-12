@@ -8,18 +8,19 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ### Persona 1
 Nome: Ana
+
 Idade: 27 anos
+
 Profissão: Estudante
+
 Localização: Rio de Janeiro, Brasil
 
 Perfil:
 Ana é uma estudante de jornalismo que mora no Rio de Janeiro. Ela é uma pessoa preocupada com o bem-estar das pessoas e sempre que pode se voluntaria em ações sociais. Ana acredita que doar sangue é uma das melhores formas de ajudar outras pessoas e salvar vidas.
 
-Ana quer doar sangue regularmente, mas muitas vezes tem dificuldades para encontrar um local de doação próximo e que tenha um horário compatível com sua rotina de estudante. Ela também tem receio de ir a locais desconhecidos e não saber se o processo de doação será seguro e eficiente.
+Ana quer doar sangue regularmente, mas tem dificuldades para encontrar um local de doação próximo e que tenha um horário compatível com sua rotina de estudante. Ela também tem receio de ir a locais desconhecidos e não saber se o processo de doação será seguro e eficiente.
 
-Ana encontrou a Bloodbridge, uma plataforma online que facilita o processo de doação de sangue, conectando doadores com as pessoas que precisam receber sangue mais próximas e agendando horários que sejam compatíveis com sua rotina. A plataforma oferece informações sobre os requisitos para doação de sangue, os benefícios da doação e é confiável e segura.
-
-Ana é uma pessoa muito engajada nas redes sociais e em grupos de discussão sobre saúde e doação de sangue. Ela gosta de compartilhar informações úteis e incentivar outras pessoas a doarem sangue. Ela também é muito ativa em eventos sociais e de voluntariado em sua comunidade, sempre buscando formas de ajudar outras pessoas.
+Ana é uma pessoa muito engajada nas redes sociais. Ela gosta de compartilhar informações úteis e incentivar outras pessoas a doarem sangue. Ela também é muito ativa em eventos sociais e de voluntariado em sua comunidade, sempre buscando formas de ajudar outras pessoas.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -61,23 +62,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-|RF-003|  permitir que os pacientes busquem doadores com base em critérios como tipo sanguíneo | ALTA | |
-|RF-004| Cadastro de usuários  | ALTA | |
-|RF-005| Feedback dos doadores  | BAIXA | |
-
+|RF-003| Garantir a segurança dos dados do usuário | MÉDIA | |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  MÉDIA | 
-|RNF-003| Garantir a segurança dos dados pessoais dos usuários  |  ALTA | 
-|RNF-004| Garantir que a interface do usuário seja intuitiva e fácil de usar  |  ALTA | 
-|RNF-005| Garantir que o sistema tenha um tempo de resposta rápido  |  MÉDIA | 
-|RNF-005| O sistema deve estar sempre disponível   |  MÉDIA | 
-
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
