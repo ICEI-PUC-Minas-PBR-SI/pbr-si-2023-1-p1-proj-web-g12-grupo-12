@@ -7,8 +7,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 Nome: Ana
+
 Idade: 27 anos
+
 Profissão: Estudante
+
 Localização: Rio de Janeiro, Brasil
 
 Perfil:
