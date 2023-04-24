@@ -52,9 +52,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Usuário do sistema  | Receber incentivos para doação     | Sempre que puder, doar                 |
+|Usuário do sistema  | Filtrar outros usuários por região | Poder encontrar usuários próximos      |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+     Ana, 23 anos
+
+     Meu nome é Ana e, há alguns meses, eu me cadastrei nessa aplicação web, a BloodBridge, que tinha um propósito muito nobre: facilitar o processo de doação de sangue. Como muitas pessoas, eu sempre quis ajudar, mas sempre tive dificuldades em encontrar os locais de doação ou saber quando e onde era necessário. Mas essa aplicação mudou tudo para mim.
+     Logo no meu primeiro acesso, fiquei impressionada com a simplicidade do sistema. Era tudo muito intuitivo e fácil de usar. Eu simplesmente selecionei minha região e comecei a explorar as opções disponíveis. Eu poderia escolher se queria doar sangue ou se precisava de sangue, e a aplicação me mostrava todos os hospitais e postos de coleta que estavam próximos da minha localização.
+     Foi quando vi um pedido de doação de sangue de um menino chamado Lucas, de apenas 7 anos. Ele tinha leucemia e precisava de doações constantes de sangue. Eu me senti compelida a ajudar e imediatamente marquei um horário para doar. Era algo tão simples e fácil que eu me perguntava por que nunca tinha feito isso antes.
+     No dia da minha doação, fui ao hospital indicado pela aplicação. Foi um processo rápido e indolor. Eu estava feliz por estar fazendo algo de bom e por saber que minha doação iria ajudar alguém que realmente precisava.
+     Algumas semanas depois, recebi uma mensagem de agradecimento da mãe do Lucas. Ela me contou que minha doação havia ajudado a salvar a vida do filho dela e que estava muito grata por isso. Eu fiquei emocionada ao ler aquela mensagem. Eu não poderia estar mais feliz por ter ajudado a fazer a diferença na vida de alguém.
+     Desde então, tenho usado a aplicação regularmente para ver se há novas oportunidades de doação de sangue na minha região. A cada doação, sinto que estou fazendo minha parte para ajudar a salvar vidas. É incrível como algo tão simples pode fazer tanta diferença.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
