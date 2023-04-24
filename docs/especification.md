@@ -4,22 +4,9 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
-Especificação do projeto Bloodbridge, um software que tem como objetivo conectar pessoas que precisam de doação de sangue com pessoas que querem doar sangue. Para isso, serão utilizadas diversas técnicas e ferramentas, incluindo:
-
-Definição do Diagrama de Personas: para criar personas que representem os diferentes usuários do sistema, suas necessidades e motivações.
-
-Criação de histórias de usuários: para identificar as principais funcionalidades que o software deve ter, com base nas necessidades e objetivos dos usuários.
-
-Identificação de requisitos funcionais: para descrever as principais funcionalidades que o software deve ter para atender às necessidades dos usuários.
-
-Identificação de requisitos não funcionais: para descrever as características do software que não estão diretamente relacionadas às funcionalidades, mas que são importantes para garantir a qualidade do software.
-
-Restrições do projeto: para identificar as limitações do projeto, como orçamento, prazo de entrega, tecnologias disponíveis, entre outros.
-
-Com base nas técnicas e ferramentas mencionadas anteriormente, serão elaborados documentos que descrevam detalhadamente o software Bloodbridge, incluindo sua arquitetura de software, interface de usuário, fluxos de navegação, banco de dados e outros aspectos técnicos. O objetivo final é desenvolver um software eficiente, seguro e fácil de usar, que possa conectar pessoas que precisam de doação de sangue com pessoas que querem doar sangue, salvando vidas por meio dessa ação solidária.
-
 ## Personas
 
+# Persona 1
 Nome: Ana
 Idade: 27 anos
 Profissão: Estudante
