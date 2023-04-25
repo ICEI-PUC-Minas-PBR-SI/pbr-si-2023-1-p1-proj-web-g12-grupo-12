@@ -17,7 +17,10 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 ## Tipografia
 
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+Título de página: É necessário uma fonte para chamar a atenção do usuário. A fonte escolhida então é a serifada Georgia
+Título de Seção: para os títulos de seção, é bom usar uma fonte que seja legível e diferencie-se do corpo de texto, mas sem ser excessivamente expressiva. A opção escolhida foi a sans-serif Lato
+Rótulos de componentes: para rótulos de botões, formulários ou outros componentes, é importante que a fonte seja legível em tamanhos menores. Foi escolhida então a sans-serif Arial
+Corpo de Texto: para o corpo do texto, é importante escolher uma fonte que seja legível em tamanhos menores e que seja fácil de ler em longas seções de texto. Sendo assim a sans-serif Open Sans foi escolhida
 
 ## Iconografia
 
