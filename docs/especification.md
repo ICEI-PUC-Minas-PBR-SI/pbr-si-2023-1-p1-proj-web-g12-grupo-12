@@ -1,10 +1,11 @@
 # Especificações do Projeto
 O problema: O grande tempo de espera que algumas pessoas precisam para receber uma doação de sangue e a dificuldade de encontrar alguém com tipo sanguíneo compatível.
+
 Solução: BloodBridge, uma aplicação com o intuito de conectar doador/receptor de maneira simples.
 A aplicação consiste basicamente em 4 telas: tela incial/login, tela de cadastro, tela principal, tela do perfil.
 O objetivo da aplicação é fornecer meios para que o usuário seja ele doador ou receptor, entre em contato com outro usuário que tenha sangue compatível com o seu. Os meios de contato que serão fornecidos são o número de telefone e/ou e-mail, dando preferência ao número de telefone. Estes dados serão coletados na hora do cadastro.
 BloodBridge é uma aplicação de uso simples, amigável ao usuário e com potencial para salvar diversas vidas e reduzir possíveis sequelas causadas pela demora ao realizar uma transfusão de sangue.
-Os possíveis usuários são as pessoas que tem a tecnologia presente em suas vidas, o poder da plataforma não atende somente ao usuário primário mas também as pessoas ao seu entorno como exemplificado na Persona 3, onde o usuário apesar de bem de saúde possui parentes com problemas que frequentemente precisam passar por transfusões. O usuário utilizaria a aplicação não para si mesmo, mas para seus avós. Isso pode se estender a qualquer pessoa. Já que a aplicação trata de informações pessoais porém de baixo grau de importância, qualquer pessoa de confiança pode administrar a conta de uma outra.
+Os possíveis usuários são as pessoas que tem a tecnologia presente em suas vidas, o poder da plataforma não atende somente ao usuário primário mas também as pessoas ao seu entorno como exemplificado na Persona 2, onde o usuário apesar de bem de saúde possui parentes com problemas que frequentemente precisam passar por transfusões. O usuário utilizaria a aplicação não para si mesmo, mas para seus avós. Isso pode se estender a qualquer pessoa. Já que a aplicação trata de informações pessoais porém de baixo grau de importância, qualquer pessoa de confiança pode administrar a conta de uma outra.
 
 
 ## Personas
