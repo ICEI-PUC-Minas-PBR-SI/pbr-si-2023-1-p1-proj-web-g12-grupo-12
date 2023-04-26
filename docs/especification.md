@@ -1,8 +1,11 @@
 # Especificações do Projeto
+O problema: O grande tempo de espera que algumas pessoas precisam para receber uma doação de sangue e a dificuldade de encontrar alguém com tipo sanguíneo compatível.
+Solução: BloodBridge, uma aplicação com o intuito de conectar doador/receptor de maneira simples.
+A aplicação consiste basicamente em 4 telas: tela incial/login, tela de cadastro, tela principal, tela do perfil.
+O objetivo da aplicação é fornecer meios para que o usuário seja ele doador ou receptor, entre em contato com outro usuário que tenha sangue compatível com o seu. Os meios de contato que serão fornecidos são o número de telefone e/ou e-mail, dando preferência ao número de telefone. Estes dados serão coletados na hora do cadastro.
+BloodBridge é uma aplicação de uso simples, amigável ao usuário e com potencial para salvar diversas vidas e reduzir possíveis sequelas causadas pela demora ao realizar uma transfusão de sangue.
+Os possíveis usuários são as pessoas que tem a tecnologia presente em suas vidas, o poder da plataforma não atende somente ao usuário primário mas também as pessoas ao seu entorno como exemplificado na Persona 3, onde o usuário apesar de bem de saúde possui parentes com problemas que frequentemente precisam passar por transfusões. O usuário utilizaria a aplicação não para si mesmo, mas para seus avós. Isso pode se estender a qualquer pessoa. Já que a aplicação trata de informações pessoais porém de baixo grau de importância, qualquer pessoa de confiança pode administrar a conta de uma outra.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
@@ -51,7 +54,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Receber incentivos para doação     | Sempre que puder, doar                 |
+|Usuário do sistema  | Receber notificaçoes semanais     |incentivar a  doar                 |
 |Usuário do sistema  | Filtrar outros usuários por região | Poder encontrar usuários próximos      |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
@@ -64,12 +67,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
      Algumas semanas depois, recebi uma mensagem de agradecimento da mãe do Lucas. Ela me contou que minha doação havia ajudado a salvar a vida do filho dela e que estava muito grata por isso. Eu fiquei emocionada ao ler aquela mensagem. Eu não poderia estar mais feliz por ter ajudado a fazer a diferença na vida de alguém.
      Desde então, tenho usado a aplicação regularmente para ver se há novas oportunidades de doação de sangue na minha região. A cada doação, sinto que estou fazendo minha parte para ajudar a salvar vidas. É incrível como algo tão simples pode fazer tanta diferença.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -83,22 +80,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Usuário cadastrado deve conseguir alterar seu status entre doador/receptor | ALTA | |
 |RF-003| Usuário cadastrado deve conseguir atualizar seu endereço | ALTA | |
 |RF-004| Exibir na tela principal a ficha dos outros usuários da aplicação | ALTA | |
-|RF-005| Se o status do usuário for de "doador" apresentar a ficha de possíveis receptores | ALTA | |
-|RF-006| Se o status do usuário for de "recptor" apresentar a ficha de possíveis doadores | ALTA | |
+|RF-004.1| Se o status do usuário for de "doador" apresentar a ficha de possíveis receptores | ALTA | |
+|RF-004.2| Se o status do usuário for de "recptor" apresentar a ficha de possíveis doadores | ALTA | |
+|RF-004.3| permitir que os doadores/receptores tenham acesso aos contatos uns dos outros | ALTA | |
 |RF-007| permitir que os usuários filtrem as buscas por localidade, tipo sanguíneo e disponibilidade | ALTA | |
 |RF-008| Feedback dos usuários | MÉDIA | |
-|RF-009| permitir que os doadores/receptores tenham acesso aos contatos uns dos outros | ALTA | |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| Garantir a segurança dos dados pessoais |  ALTA | 
-|RNF-004| Garantir que o sistema tenha um tempo de resposta rápido |  MÉDIA | 
-|RNF-005| O sistema deve estar sempre disponível |  ALTA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  MÉDIA | 
+|RNF-003| Garantir a segurança dos dados pessoais |  ALTA |  
+|RNF-004| O sistema deve estar sempre disponível |  ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
