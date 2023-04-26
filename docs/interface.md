@@ -1,13 +1,30 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Tela de Cadastro / Login;
+▪ Menu
+   ▪ Notificações
+   ▪ Perfil
+   ▪ Interações com Perfil
+   ▪ Solicitações de doação
+   ▪ Histórico de doações
+   ▪ Calendário
+   ▪ Dicas de doação
+   ▪ Mapa interativo com usuários, filtros e postos de coleta próximos
+▪ Perfil de usuários próximos
+   ▪ Nome de usuário
+   ▪ Contato
+   ▪ Região
+   ▪ Redes Sociais
+   ▪ Adicionais
+   ▪ Botão de interação (alertará ao usuário requisitado que ele será 
+   chamado pelo usuário X em uma das suas formas de contato 
+   disponíveis, seja via número ou rede social
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![UserFlow](https://user-images.githubusercontent.com/129776253/234619245-2105714f-e041-4f0b-a730-e275f683bcaf.png)
+
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
@@ -19,7 +36,11 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+![Template CadasLog](https://user-images.githubusercontent.com/129776253/234620244-44654717-40ea-4612-a06a-b1eae3bea266.png)
+
+![Interface e Template](https://user-images.githubusercontent.com/129776253/234620290-17162916-fd0e-4434-a981-d7800292cfcb.png)
+
+![perfil](https://user-images.githubusercontent.com/129776253/234620325-27313ae8-4792-47b3-8b8a-8242d013e044.png)
 
 ### Exemplo
 
