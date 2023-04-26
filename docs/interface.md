@@ -36,11 +36,12 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-![Template CadasLog](https://user-images.githubusercontent.com/129776253/234620244-44654717-40ea-4612-a06a-b1eae3bea266.png)
+![Template CadasLog](https://user-images.githubusercontent.com/129776253/234621666-946ccbca-1182-49a2-9196-98cf6a35ed9e.png)
 
 ![Interface e Template](https://user-images.githubusercontent.com/129776253/234620290-17162916-fd0e-4434-a981-d7800292cfcb.png)
 
-![perfil](https://user-images.githubusercontent.com/129776253/234620325-27313ae8-4792-47b3-8b8a-8242d013e044.png)
+![perfil](https://user-images.githubusercontent.com/129776253/234621603-618fbd1a-1f7f-4593-971a-cefa2669e86b.png)
+
 
 ### Exemplo
 
