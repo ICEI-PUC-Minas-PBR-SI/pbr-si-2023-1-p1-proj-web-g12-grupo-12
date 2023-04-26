@@ -1,24 +1,16 @@
 
 # Projeto de Interface
 
-Tela de Cadastro / Login;
+▪ Tela de Cadastro / Login;
 
 ▪ Menu
-
-   ▪ Notificações
-   
-   ▪ Perfil
-   
-   ▪ Interações com Perfil
-   
-   ▪ Solicitações de doação
-   
-   ▪ Histórico de doações
-   
-   ▪ Calendário
-   
+   ▪ Notificações   
+   ▪ Perfil   
+   ▪ Interações com Perfil   
+   ▪ Solicitações de doação   
+   ▪ Histórico de doações   
+   ▪ Calendário   
    ▪ Dicas de doação
-   
    ▪ Mapa interativo com usuários, filtros e postos de coleta próximos
    
 ▪ Perfil de usuários próximos
