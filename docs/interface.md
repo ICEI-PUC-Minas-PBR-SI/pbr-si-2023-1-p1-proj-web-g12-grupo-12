@@ -1,9 +1,9 @@
 
 # Projeto de Interface
 
-▪ Tela de Cadastro / Login;
+▪ Tela de Cadastro / Login;   
 
-▪ Menu
+▪ Menu   
    ▪ Notificações   
    ▪ Perfil   
    ▪ Interações com Perfil   
@@ -13,15 +13,15 @@
    ▪ Dicas de doação
    ▪ Mapa interativo com usuários, filtros e postos de coleta próximos
    
-▪ Perfil de usuários próximos
-   ▪ Nome de usuário
-   ▪ Contato
-   ▪ Região
-   ▪ Redes Sociais
-   ▪ Adicionais
+▪ Perfil de usuários próximos 
+   ▪ Nome de usuário 
+   ▪ Contato   
+   ▪ Região 
+   ▪ Redes Sociais   
+   ▪ Adicionais   
    ▪ Botão de interação (alertará ao usuário requisitado que ele será 
    chamado pelo usuário X em uma das suas formas de contato 
-   disponíveis, seja via número ou rede social
+   disponíveis, seja via número ou rede social  
 
 ## User Flow
 
