@@ -10,13 +10,12 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 
 ## Cores
-
+A paleta de cores que utilizaremos no projeto será composta pelas cores vermelho, branco, e preto, sendo os botões da interface vermelhos, a letra branca e o fundo preto
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 Título de página: É necessário uma fonte para chamar a atenção do usuário. A fonte escolhida então é a serifada Georgia
 Título de Seção: para os títulos de seção, é bom usar uma fonte que seja legível e diferencie-se do corpo de texto, mas sem ser excessivamente expressiva. A opção escolhida foi a sans-serif Lato
 Rótulos de componentes: para rótulos de botões, formulários ou outros componentes, é importante que a fonte seja legível em tamanhos menores. Foi escolhida então a sans-serif Arial
