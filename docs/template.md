@@ -5,8 +5,15 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
+O logo do software será colocado em um local facilmente visível, no canto superior esquerdo da página inicial 
+Menus:
+Página Inicial: Esta será a primeira página que os usuários veem quando acessam o BloodBridge. Pode incluir uma breve descrição do software, bem como opções para procurar por bancos de sangue, doadores de sangue e informações de contato.
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+Busca: Esta opção permitirá que os usuários pesquisem por doadores de sangue e bancos de sangue próximos a eles. 
+
+Banco de Sangue: Este menu deve fornecer uma lista de todos os bancos de sangue disponíveis no software BloodBridge, incluindo suas localizações e informações de contato.
+
+Doadores de Sangue: Este menu deve fornecer uma lista de todos os doadores de sangue registrados no software BloodBridge. Os usuários devem poder pesquisar doadores por tipo sanguíneo, localização ou disponibilidade.
 
 
 ## Cores
