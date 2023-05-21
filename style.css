@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+}
+
+.fotoperfil {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    border-style: solid;
+    border-radius: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 200px;
+    margin: 30px;
+    border-color: black;
+    border-width: 5px;
+    display: inline-block;
+
+}
+
+.sairconta {
+    display: inline-block;
+    background-color: red;
+    margin-right: 10px;
+    border-style: solid;
+    margin-left: 1300px;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    border-radius: 3px;
+    transition: 200ms;
+    
+}
+
+.geral0 {
+    border-style: solid;
+    border-color: crimson;
+    background-color: #444;
+}
+
+.geral {
+    border-style: solid;
+    border-color: chartreuse;
+    display: inline-flex;
+    width: 75%;
+}
+
+ .abaesquerda {
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+    width: 15%;
+    margin: 30px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: #444;
+    padding-left: 10px;
+    display: inline-block;
+} 
+
+.sobre {
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+    width: 64%;
+    border-style: solid;
+    border-color: blue;
+    display: inline-table;
+    height: 400px;
+    padding: 15px;
+    margin: 42px;
+    
+}
+
+.sobretitulo {
+    text-align: center;
+    font-size: 32px;
+    border-style: solid;
+    border-color: darkorange;
+}
+
+.geral1 {
+    color: white;
+    border-color:forestgreen;
+    background-color: #444;
+    border-style: solid;
+    width: 20%;
+    display: inline-table;
+    height: 500px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.testemunhos {
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+    width: 48%;
+    border-style: solid;
+    border-color: blue;
+    display: inline-block;
+    height: 300px;
+    padding: 15px;
+    margin-left: 330px;
+}
+
+.titulotestemunho {
+    text-align: center;
+    font-size: 32px;
+    border-style: solid;
+    border-color: darkorange;
+}
+
+.username {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    transition: 200ms;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.bloodtype {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    transition: 200ms;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.location {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    transition: 200ms;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.email {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    transition: 200ms;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.number {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    transition: 200ms;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
