@@ -6,29 +6,37 @@ body {
     color: white;
     text-align: center;
     font-size: 42px;
-    border-style: solid;
     border-radius: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 200px;
     margin: 30px;
-    border-color: black;
     border-width: 5px;
     display: inline-block;
+}
 
+.titulogeral0 {
+    display: inline;
+    color: white;
+    margin-left: 460px;
+    position: absolute;
+    margin-top: 120px;
+    font-size: 64px;
 }
 
 .sairconta {
     display: inline-block;
     background-color: red;
     margin-right: 10px;
+    margin-top: 150px;
     border-style: solid;
     margin-left: 1300px;
-    padding: 5px;
+    padding: 12px;
     font-size: 16px;
     color: white;
-    border-radius: 3px;
+    border-radius: 10px;
     transition: 200ms;
+    position: absolute;
     
 }
 
@@ -36,11 +44,11 @@ body {
     border-style: solid;
     border-color: crimson;
     background-color: #444;
+    display: block;
 }
 
 .geral {
     border-style: solid;
-    border-color: chartreuse;
     display: inline-flex;
     width: 75%;
 }
@@ -51,11 +59,12 @@ body {
     font-size: 16px;
     width: 15%;
     margin: 30px;
-    border-style: solid;
     border-color: blueviolet;
     background-color: #444;
-    padding-left: 10px;
+    padding-left: 5px;
     display: inline-block;
+    border-radius: 10px;
+    margin-top: 15px;
 } 
 
 .sobre {
@@ -64,12 +73,13 @@ body {
     font-size: 16px;
     width: 64%;
     border-style: solid;
-    border-color: blue;
+    border-color: red;
+    border-radius: 12px;
     display: inline-table;
     height: 400px;
     padding: 15px;
     margin: 42px;
-    
+    margin-top: 15px;
 }
 
 .sobretitulo {
@@ -77,38 +87,22 @@ body {
     font-size: 32px;
     border-style: solid;
     border-color: darkorange;
+    border-radius: 12px;
+    margin-top: 5px;
 }
 
 .geral1 {
     color: white;
     border-color:forestgreen;
     background-color: #444;
-    border-style: solid;
     width: 20%;
     display: inline-table;
     height: 500px;
     text-align: center;
     margin-left: 45px;
-}
-
-.testemunhos {
-    color: white;
-    text-align: justify;
-    font-size: 16px;
-    width: 48%;
-    border-style: solid;
-    border-color: blue;
-    display: inline-block;
-    height: 300px;
-    padding: 15px;
-    margin-left: 330px;
-}
-
-.titulotestemunho {
-    text-align: center;
-    font-size: 32px;
-    border-style: solid;
-    border-color: darkorange;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 15px;
 }
 
 .username {
@@ -121,6 +115,7 @@ body {
     margin: 10px;
     font-size: 16px;
     border-radius: 10px;
+    max-inline-size: 160px;
 }
 .bloodtype {
     color: white;
@@ -132,6 +127,7 @@ body {
     margin: 10px;
     font-size: 16px;
     border-radius: 10px;
+    max-inline-size: 160px;
 }
 .location {
     color: white;
@@ -143,6 +139,7 @@ body {
     margin: 10px;
     font-size: 16px;
     border-radius: 10px;
+    max-inline-size: 160px;
 }
 .email {
     color: white;
@@ -154,6 +151,7 @@ body {
     margin: 10px;
     font-size: 16px;
     border-radius: 10px;
+    max-inline-size: 160px;
 }
 .number {
     color: white;
@@ -165,4 +163,29 @@ body {
     margin: 10px;
     font-size: 16px;
     border-radius: 10px;
+    max-inline-size: 160px;
 }
+
+.historico {
+    border-color: #444;
+    border-bottom: red;
+    border-style: dashed;
+    padding-bottom: 8px;
+}
+
+.voltar {
+    position: absolute;
+    margin: 5px;
+    margin-left: 5px;
+    background-color: red;
+    border-style: solid;
+    padding: 8px;
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+::placeholder {
+    color: white;
+  }
