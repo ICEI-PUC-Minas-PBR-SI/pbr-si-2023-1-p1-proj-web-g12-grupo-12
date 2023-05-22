@@ -24,21 +24,21 @@
 				<div id="login-column" class="col-md-6">
 					<div id="login-box" class="col-md-12">
 						<form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
-							<h3 class="text-center text-info">Login</h3>
+							<h3 class="text-center text-info text-white">Login</h3>
 							<div class="form-group">
-								<label for="username" class="text-info">Usuário</label><br>
+								<label for="username" class="text-info text-white">Usuário</label><br>
                                 <input type="text" name="username" id="username" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="password" class="text-info">Senha</label><br>
-                                <input type="text" name="password" id="password" class="form-control">
+                                <label for="password" class="text-info text-white">Senha</label><br>
+                                <input type="password" name="password" id="password" class="form-control">
                             </div>
                             <div class="form-group text-right">                                
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                                <input id="btn_entrar" type="submit" name="submit" class="btn btn-info btn-md" value="Entrar">
                             </div>
                         </form>
                     </div>
-                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">Novo usuario</button>
+                    <button id="btn_nusuario" type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">Novo usuario</button>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="loginModalLabel">Login App</h5>
+          <h5 class="modal-title text-white" id="loginModalLabel">Cadastro de novo usuario</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -57,32 +57,48 @@
         <div class="modal-body">
             <div id="login-box" class="col-md-12">
                 <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
-                    <h3 class="text-center text-info">Novo usuário</h3>
+                    <h3 class="text-center text-info text-white">Novo usuário</h3>
                     <div class="form-group">
-                        <label for="login" class="text-info">Usuário</label><br>
+                        <label for="login" class="text-info text-white">Usuário</label><br>
                         <input type="text" name="txt_login" id="txt_login" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="nome" class="text-info">Nome completo</label><br>
+                        <label for="nome" class="text-info text-white">Nome completo</label><br>
                         <input type="text" name="txt_nome" id="txt_nome" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="email" class="text-info">email</label><br>
+                        <label for="email" class="text-info text-white">email</label><br>
                         <input type="text" name="txt_email" id="txt_email" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="senha" class="text-info">Senha</label><br>
+                        <label for="senha" class="text-info text-white">Senha</label><br>
                         <input type="password" name="txt_senha" id="txt_senha" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="senha2" class="text-info">Confirmação de Senha</label><br>
+                        <label for="senha2" class="text-info text-white">Confirmação de Senha</label><br>
                         <input type="password" name="txt_senha2" id="txt_senha2" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo_sanguineo" class="text-info text-white">Tipo Sanguineo</label><br>
+                        <input type="text" name="txt_tipo_sanguineo" id="txt_tipo_sanguineo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="cidade" class="text-info text-white">Cidade</label><br>
+                        <input type="text" name="txt_cidade" id="txt_cidade" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="estado" class="text-info text-white">Estado</label><br>
+                        <input type="text" name="txt_estado" id="txt_estado" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="cpf" class="text-info text-white">CPF</label><br>
+                        <input type="number" name="txt_cpf" id="txt_cpf" class="form-control">
                     </div>
                 </form>
             </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" id="btn_cancelar" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
           <button type="button" id="btn_salvar" class="btn btn-info">Salvar</button>
         </div>
       </div>
@@ -119,6 +135,10 @@
             let login  = document.getElementById('txt_login').value;
             let nome   = document.getElementById('txt_nome').value;
             let email  = document.getElementById('txt_email').value;
+            let tipo_sanguineo = document.getElementById('txt_tipo_sanguineo').value;
+            let cidade = document.getElementById('txt_cidade').value;
+            let estado = document.getElementById('txt_estado').value;
+            let cpf = document.getElementById('txt_cpf').value;
             let senha  = document.getElementById('txt_senha').value;
             let senha2 = document.getElementById('txt_senha2').value;
             if (senha != senha2) {
@@ -127,7 +147,7 @@
             }
 
             // Adiciona o usuário no banco de dados
-            addUser (nome, login, senha, email);
+            addUser (nome, login, senha, email, tipo_sanguineo, cidade, estado, cpf);
             alert ('Usuário salvo com sucesso. Proceda com o login para ');
 
             // Oculta a div modal do login
