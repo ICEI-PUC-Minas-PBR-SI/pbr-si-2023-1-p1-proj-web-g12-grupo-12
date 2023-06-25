@@ -15,6 +15,7 @@ html {
   p {
     text-align: justify;
     color: white;
+    text-indent: 20px;
   
   }
   
@@ -142,17 +143,15 @@ html {
   .sobretitulo {
     text-align: center;
     font-size: 32px;
-    border-style: solid;
-    border-color: darkorange;
-    border-radius: 12px;
     margin-top: 5px;
+    margin-bottom: 15px;
   }
   
   .sobre {
     color: white;
     text-align: justify;
     font-size: 16px;
-    width: 64%;
+    width: 100%;
     border-style: solid;
     border-color: red;
     border-radius: 12px;
