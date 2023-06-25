@@ -37,7 +37,7 @@ body {
     border-radius: 10px;
     transition: 200ms;
     position: absolute;
-    
+
 }
 
 .geral0 {
@@ -53,7 +53,7 @@ body {
     width: 75%;
 }
 
- .abaesquerda {
+.abaesquerda {
     color: white;
     text-align: justify;
     font-size: 16px;
@@ -65,7 +65,7 @@ body {
     display: inline-block;
     border-radius: 10px;
     margin-top: 15px;
-} 
+}
 
 .sobre {
     color: white;
@@ -93,7 +93,7 @@ body {
 
 .geral1 {
     color: white;
-    border-color:forestgreen;
+    border-color: forestgreen;
     background-color: #444;
     width: 20%;
     display: inline-table;
@@ -112,11 +112,13 @@ body {
     transition: 200ms;
     display: grid;
     padding: 10px;
-    margin: 10px;
+    margin-left: 10px;
     font-size: 16px;
     border-radius: 10px;
     max-inline-size: 160px;
+    margin-top: -15px;
 }
+
 .bloodtype {
     color: white;
     background-color: red;
@@ -128,7 +130,9 @@ body {
     font-size: 16px;
     border-radius: 10px;
     max-inline-size: 160px;
+    margin-top: -15px;
 }
+
 .location {
     color: white;
     background-color: red;
@@ -140,7 +144,9 @@ body {
     font-size: 16px;
     border-radius: 10px;
     max-inline-size: 160px;
+    margin-top: -15px;
 }
+
 .email {
     color: white;
     background-color: red;
@@ -152,7 +158,9 @@ body {
     font-size: 16px;
     border-radius: 10px;
     max-inline-size: 160px;
+    margin-top: -15px;
 }
+
 .number {
     color: white;
     background-color: red;
@@ -164,6 +172,7 @@ body {
     font-size: 16px;
     border-radius: 10px;
     max-inline-size: 160px;
+    margin-top: -15px;
 }
 
 .historico {
@@ -188,4 +197,4 @@ body {
 
 ::placeholder {
     color: white;
-  }
+}

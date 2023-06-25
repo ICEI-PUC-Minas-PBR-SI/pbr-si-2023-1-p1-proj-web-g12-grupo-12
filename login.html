@@ -22,7 +22,7 @@
         </div>
     </nav>
     <div id="login">
-        <h3 class="text-center text-white pt-5">Novo Usuário</h3>
+        <h3 class="text-center text-white pt-5"></h3>
         <div class="container">
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
@@ -31,26 +31,27 @@
                             <h3 class="text-center text-info text-white">Login</h3>
                             <div class="form-group">
                                 <label for="username" class="text-info text-white">Usuário</label><br>
-                                <input type="text" name="username" id="username" class="form-control">
+                                <input type="text" name="username" id="username" class="form-control"
+                                    placeholder="Digite seu nome de usuário aqui...">
                             </div>
                             <div class="form-group">
                                 <label for="password" class="text-info text-white">Senha</label><br>
-                                <input type="password" name="password" id="password" class="form-control">
+                                <input type="password" name="password" id="password" class="form-control"
+                                    placeholder="Digite sua senha aqui...">
                             </div>
                             <div class="form-group text-right">
-                                <a href="principal.html"><input id="btn_entrar" type="submit" name="submit" class="btn btn-info btn-md"
-                                    value="Entrar"></a>
+                                <a href="principal.html"><input id="btn_entrar" type="submit" name="submit"
+                                        class="btn btn-info btn-md" value="Entrar"></a>
                             </div>
                         </form>
                     </div>
                     <button id="btn_nusuario" type="button" class="btnbtn-info" data-toggle="modal"
-                        data-target="#loginModal">Novo usuario</button>
+                        data-target="#loginModal">Novo usuário</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Modal -->
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -74,7 +75,7 @@
                                 <input type="text" name="txt_nome" id="txt_nome" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="email" class="text-info text-white">email</label><br>
+                                <label for="email" class="text-info text-white">Email</label><br>
                                 <input type="text" name="txt_email" id="txt_email" class="form-control">
                             </div>
                             <div class="form-group">
@@ -103,75 +104,47 @@
                                 <input type="number" name="txt_cpf" id="txt_cpf" class="form-control">
                             </div>
                         </form>
+                        <script>
+                            var loginForm = document.getElementById('login-form');
+                            var txtLogin = document.getElementById('txt_login');
+                            var txtNome = document.getElementById('txt_nome');
+                            var txtEmail = document.getElementById('txt_email');
+                            var txtSenha = document.getElementById('txt_senha');
+                            var txtSenha2 = document.getElementById('txt_senha2');
+                            var txtTipoSanguineo = document.getElementById('txt_tipo_sanguineo');
+                            var txtCidade = document.getElementById('txt_cidade');
+                            var txtEstado = document.getElementById('txt_estado');
+                            var txtCPF = document.getElementById('txt_cpf');
+                            var btnSalvar = document.getElementById('btn_salvar');
+
+                            function saveValues() {
+                                document.querySelector('.username').value = txtNome.value;
+                                document.querySelector('.bloodtype').value = txtTipoSanguineo.value;
+                                document.querySelector('.location').value = txtCidade.value + ', ' + txtEstado.value;
+                                document.querySelector('.email').value = txtEmail.value;
+                                document.querySelector('.number').value = txtCPF.value;
+                            }
+
+                            btnSalvar.addEventListener('click', function () {
+                                saveValues();
+                            });
+
+                            loginForm.addEventListener('submit', function (event) {
+                                event.preventDefault();
+                            });
+                        </script>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" id="btn_cancelar" class="btn btn-secondary"
                         data-dismiss="modal">Cancelar</button>
-                    <button type="button" id="btn_salvar" class="btn btn-info">Salvar</button>
+                    <button type="button" id="btn_salvar" class="btn btn-info" onclick="addUser()">Salvar</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="login.js"></script>
-    <script>
-
-        // Declara uma função para processar o formulário de login
-        function processaFormLogin(event) {
-            // Cancela a submissão do formulário para tratar sem fazer refresh da tela
-            event.preventDefault();
-
-            // Obtem os dados de login e senha a partir do formulário de login
-            var username = document.getElementById('username').value;
-            var password = document.getElementById('password').value;
-
-            // Valida login e se estiver ok, redireciona para tela inicial da aplicação
-            resultadoLogin = loginUser(username, password);
-            if (resultadoLogin) {
-                window.location.href = 'index.html';
-            }
-            else { // Se login falhou, avisa ao usuário
-                alert('Usuário ou senha incorretos');
-            }
-        }
-
-        function salvaLogin(event) {
-            // Cancela a submissão do formulário para tratar sem fazer refresh da tela
-            event.preventDefault();
-
-            // Obtem os dados do formulário
-            let login = document.getElementById('txt_login').value;
-            let nome = document.getElementById('txt_nome').value;
-            let email = document.getElementById('txt_email').value;
-            let tipo_sanguineo = document.getElementById('txt_tipo_sanguineo').value;
-            let cidade = document.getElementById('txt_cidade').value;
-            let estado = document.getElementById('txt_estado').value;
-            let cpf = document.getElementById('txt_cpf').value;
-            let senha = document.getElementById('txt_senha').value;
-            let senha2 = document.getElementById('txt_senha2').value;
-            if (senha != senha2) {
-                alert('As senhas informadas não conferem.');
-                return
-            }
-
-            // Adiciona o usuário no banco de dados
-            addUser(nome, login, senha, email, tipo_sanguineo, cidade, estado, cpf);
-            alert('Usuário salvo com sucesso. Proceda com o login para ');
-
-            // Oculta a div modal do login
-            //document.getElementById ('loginModal').style.display = 'none';
-            $('#loginModal').modal('hide');
-        }
-
-        // Associa a funçao processaFormLogin  formulário adicionado um manipulador do evento submit
-        document.getElementById('login-form').addEventListener('submit', processaFormLogin);
-
-
-        // Associar salvamento ao botao
-        document.getElementById('btn_salvar').addEventListener('click', salvaLogin);        
-    </script>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

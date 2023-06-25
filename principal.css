@@ -1,150 +1,163 @@
-html{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-    p{
-      text-align: justify;
-      color: white;
-  
-    }
-    body{
-      color: white;
-   
-    }
-    main {
-      background-color: black;
-      width: 100%;
-      max-width: 800px;
-      padding: 5px 40px;
-      margin-top: 20px;
-      margin: auto;
-      border-radius: 10px;
-      margin-left: auto;
-      margin-right: auto;
-     }
-    
-     .geral0 {
-      border-style: solid;
-      border-color: crimson;
-      background-color: #444;
-      display: block;
-  }
+html {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
 
-   .band-name, .headline {
-      margin: 0;
-      text-align: center;
-  
-    }
-    .logo{
-      display: block;
-      margin: 0;
-      text-align: center;
-    
-    }
-    .concerts {
-      margin: 30px 0;
-      text-align: center;
-      width: 100%;
-    }
-    
-    .concerts table {
-      background: #cb3a3ab3;
-      border-radius: 10px;
-      padding: 10px;
-      margin: 0 auto;
-    }
-   ul{
-     color: white;
-   }
-  header .menu{
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px;
-  }
-  header{
-    width: 100%;
-    height: 100vh;
-  
-  }
-  header .menu li{
-    display: inline-block;
-  
-  }
-  header .menu a{
-    color: white;
-    padding: 8px 12px;
-  }
-  a{
-    text-decoration: none;
-  }
-  header .menu .ativo, header .menu a:hover{
-    color: white;
-    background-color: red;
-    border-radius: 3px;
-    transition: 200ms;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .men{
-    display: block;
-    justify-content: space-between;
-    background-color: #444;
-    width: 100%;
-    max-width: 800px;
-    padding: 5px 40px;
-    margin-top: 20px;
-    margin: auto;
-    border-radius: 10px;
-    
-  }
+p {
+  text-align: justify;
+  color: white;
 
-  .menu{
-    background-color: #444;
-    width: 100%;
-    max-width: 200px;
-    padding: 5px 40px;
-    margin-top: 20px;
-    margin: auto;
-    display: flex;
-    position: absolute;
-  }
+}
 
-  .fotinha{
-    width: 300px;
-    }
+body {
+  color: white;
 
-    .sobretitulo {
-      text-align: center;
-      font-size: 32px;
-      border-style: solid;
-      border-color: darkorange;
-      border-radius: 12px;
-      margin-top: 5px;
-  }
+}
 
-  .sobre {
-    color: white;
-    text-align: justify;
-    font-size: 16px;
-    width: 64%;
-    border-style: solid;
-    border-color: red;
-    border-radius: 12px;
-    display: inline-table;
-    height: 400px;
-    padding: 100px;
-    margin-left: 125px;
-    margin-top: 15px;
+main {
+  background-color: black;
+  width: 100%;
+  max-width: 800px;
+  padding: 5px 40px;
+  margin-top: 20px;
+  margin: auto;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.geral0 {
+  border-style: solid;
+  border-color: crimson;
+  background-color: #444;
+  display: block;
+}
+
+.band-name,
+.headline {
+  margin: 0;
+  text-align: center;
+
+}
+
+.logo {
+  display: block;
+  margin: 0;
+  text-align: center;
+
+}
+
+.concerts {
+  margin: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.concerts table {
+  background: #cb3a3ab3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+ul {
+  color: white;
+}
+
+header .menu {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+
+}
+
+header .menu li {
+  display: inline-block;
+
+}
+
+header .menu a {
+  color: white;
+  padding: 8px 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .menu .ativo,
+header .menu a:hover {
+  color: white;
+  background-color: red;
+  border-radius: 3px;
+  transition: 200ms;
+}
+
+.men {
+  display: block;
+  justify-content: space-between;
+  background-color: #444;
+  width: 100%;
+  max-width: 800px;
+  padding: 5px 40px;
+  margin-top: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.menu {
+  background-color: #444;
+  width: 100%;
+  max-width: 200px;
+  padding: 5px 40px;
+  margin-top: 20px;
+  display: flex;
+  position: absolute;
+}
+
+.fotinha {
+  width: 300px;
+}
+
+.sobretitulo {
+  text-align: center;
+  font-size: 32px;
+  border-style: solid;
+  border-color: darkorange;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+.sobre {
+  color: white;
+  text-align: justify;
+  font-size: 16px;
+  width: 64%;
+  border-style: solid;
+  border-color: red;
+  border-radius: 12px;
+  display: inline-table;
+  height: 400px;
+  padding: 15px;
+  margin-left: 12px;
+  margin-top: 15px;
 }
 
 .voltar {
@@ -173,7 +186,6 @@ html{
   border-radius: 10px;
   transition: 200ms;
   position: absolute;
-  
 }
 
 .titulogeral0 {
@@ -200,13 +212,14 @@ html{
 
 .geral1 {
   color: white;
-  border-color:forestgreen;
+  border-color: forestgreen;
   background-color: #444;
   width: 20%;
   display: inline-table;
   height: 500px;
   text-align: center;
-  margin-left: 300px;
+  margin-left: 260px;
+  margin-right: 10px;
   border-radius: 10px;
   position: absolute;
   margin-top: 15px;
