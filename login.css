@@ -1,47 +1,69 @@
-body{
+body {
     background-color: black !important;
 }
-#cabecalho{
+
+#cabecalho {
     background-color: #444 !important;
 }
-#Titulo{
-    color: white ;
+
+#Titulo {
+    color: white;
     font-size: 30px;
 }
-#btn_entrar{
+
+#btn_entrar {
     border-color: red;
     color: white;
     background-color: red;
     margin: 3px;
     margin-top: 10px;
+    margin-right: 3px;
+    display: inline-block;
+    float: left;
 }
-#btn_nusuario{
+
+#btn_nusuario {
     border-color: red;
     color: white;
     background-color: red;
-    margin-left: 3px;
+    margin-top: 10px;
     border-radius: 5px;
     padding: 5px;
+    display: inline-block;
+    float: right;
 }
-#btn_salvar{
+
+#btn_salvar {
     border-color: red;
     color: white;
     background-color: red;
     margin: 3px;
 }
-#btn_cancelar{
+
+#btn_cancelar {
     border-color: red;
     color: white;
     background-color: red;
     margin: 3px;
 }
+
+#username {
+    margin-bottom: 20px;
+}
+
+#password {
+    margin-bottom: 20px;
+}
+
 .modal-body {
     background-color: #444;
 
 }
-.modal-header{
+
+.modal-header {
     background-color: #444;
 }
-.modal-footer{
+
+.modal-footer {
     background-color: #444 !important;
 }
