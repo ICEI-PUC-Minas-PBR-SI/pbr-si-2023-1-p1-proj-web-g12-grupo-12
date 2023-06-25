@@ -75,7 +75,7 @@ ul {
 
 header .menu {
   position: absolute;
-  width: 100%;
+  width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -123,13 +123,16 @@ header .menu a:hover {
 }
 
 .menu {
+  color: white;
   background-color: #444;
-  width: 100%;
-  max-width: 200px;
-  padding: 5px 40px;
-  margin-top: 20px;
-  display: flex;
+  width: 20%;
+  height: 500px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 260px;
+  border-radius: 10px;
   position: absolute;
+  margin-top: 15px;
 }
 
 .fotinha {
