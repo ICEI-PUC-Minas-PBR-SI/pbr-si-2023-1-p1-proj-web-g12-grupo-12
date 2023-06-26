@@ -4,10 +4,12 @@
 <head lang="pt-br">
   <title>BloodBridge</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width-device-width, initial-scale-1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="principal.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="img/cruz-vermelha-removebg-preview.png">
+  <link rel="stylesheet" href="principal.css">
+
 </head>
 
 <body>
@@ -45,6 +47,23 @@
           -----------------------------------------
         </div>
       </div>
+      
+      <!-- Formulário de Registro de Notícias -->
+      <div class="registro-noticia">
+        <h3>Registrar Nova Notícia</h3>
+        <form action="processar_noticia.php" method="POST">
+          <label for="identificacao">Identificação:</label>
+          <input type="text" id="identificacao" name="identificacao" required><br><br>
+          <label for="titulo">Título:</label>
+          <input type="text" id="titulo" name="titulo" required><br><br>
+          <label for="conteudo">Conteúdo:</label>
+          <textarea id="conteudo" name="conteudo" required></textarea><br><br>
+          <label for="autor">Nome do Autor:</label>
+          <input type="text" id="autor" name="autor" required><br><br>
+          <input type="submit" value="Registrar Notícia">
+        </form>
+      </div>
+      
     </main>
   </header>
   <script src="principal.js"></script>
