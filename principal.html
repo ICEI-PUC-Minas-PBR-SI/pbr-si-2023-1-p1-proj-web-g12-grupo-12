@@ -47,7 +47,7 @@
           -----------------------------------------
         </div>
       </div>
-      
+
       <!-- Formulário de Registro de Notícias -->
       <div class="registro-noticia">
         <h3>Registrar Nova Notícia</h3>
@@ -63,10 +63,15 @@
           <input type="submit" value="Registrar Notícia">
         </form>
       </div>
-      
+
+      <!-- Elemento para exibir as notícias cadastradas -->
+      <div id="noticias">
+        <h3>Notícias Cadastradas</h3>
+      </div>
+
     </main>
   </header>
-  
+
   <script>
     // Função para salvar a notícia no Local Storage
     function salvarNoticia(event) {
@@ -86,36 +91,65 @@
         autor: autor
       };
 
-      // Converta o objeto em uma string JSON
-      var noticiaJSON = JSON.stringify(noticia);
+      // Recupere as notícias já cadastradas do Local Storage
+      var noticiasCadastradas = localStorage.getItem('noticias');
+      var noticias = [];
 
-      // Salve a notícia no Local Storage
-      localStorage.setItem('noticia', noticiaJSON);
+      if (noticiasCadastradas) {
+        noticias = JSON.parse(noticiasCadastradas);
+      }
+
+      // Adicione a nova notícia à lista
+      noticias.push(noticia);
+
+      // Converta a lista de notícias de volta para uma string JSON
+      var noticiasJSON = JSON.stringify(noticias);
+
+      // Salve a lista de notícias atualizada no Local Storage
+      localStorage.setItem('noticias', noticiasJSON);
 
       // Exiba uma mensagem de sucesso
       alert('Notícia salva com sucesso!');
+
+      // Limpe o formulário
+      document.getElementById('identificacao').value = '';
+      document.getElementById('titulo').value = '';
+      document.getElementById('conteudo').value = '';
+      document.getElementById('autor').value = '';
+
+      // Atualize a exibição das notícias
+      exibirNoticias();
     }
 
-    // Função para recuperar a notícia do Local Storage
-    function recuperarNoticia() {
-      // Recupere a notícia do Local Storage
-      var noticiaJSON = localStorage.getItem('noticia');
+    // Função para exibir as notícias cadastradas
+    function exibirNoticias() {
+      // Recupere as notícias do Local Storage
+      var noticiasCadastradas = localStorage.getItem('noticias');
+      var noticias = [];
 
-      // Verifique se a notícia existe
-      if (noticiaJSON) {
-        // Converta a string JSON de volta para um objeto
-        var noticia = JSON.parse(noticiaJSON);
-
-        // Preencha o formulário com os dados da notícia
-        document.getElementById('identificacao').value = noticia.id;
-        document.getElementById('titulo').value = noticia.titulo;
-        document.getElementById('conteudo').value = noticia.conteudo;
-        document.getElementById('autor').value = noticia.autor;
+      if (noticiasCadastradas) {
+        noticias = JSON.parse(noticiasCadastradas);
       }
+
+      // Obtenha o elemento onde as notícias serão exibidas
+      var noticiasContainer = document.getElementById('noticias');
+      noticiasContainer.innerHTML = ''; // Limpe o conteúdo atual
+
+      // Crie elementos HTML para cada notícia e adicione ao container
+      noticias.forEach(function(noticia) {
+        var noticiaElement = document.createElement('div');
+        noticiaElement.innerHTML = '<h4>' + noticia.titulo + '</h4>' +
+          '<p>' + noticia.conteudo + '</p>' +
+          '<p>Autor: ' + noticia.autor + '</p>';
+        noticiasContainer.appendChild(noticiaElement);
+      });
     }
 
     // Chame a função de recuperação ao carregar a página
-    window.onload = recuperarNoticia;
+    window.onload = function() {
+      recuperarNoticia();
+      exibirNoticias();
+    };
   </script>
 </body>
 
