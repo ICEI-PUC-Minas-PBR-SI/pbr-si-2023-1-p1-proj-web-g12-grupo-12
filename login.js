@@ -116,6 +116,7 @@ function addUser (nome, login, senha, email, tipo_sanguineo, cidade, estado, cpf
 
     // Salva o novo banco de dados com o novo usuário no localStorage
     localStorage.setItem('db_usuarios', JSON.stringify (db_usuarios));
+
 }
 
 function setUserPass () {

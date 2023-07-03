@@ -1,13 +1,13 @@
 body {
-    background-color: black !important;
+    background-color: white !important;
 }
 
 #cabecalho {
-    background-color: #444 !important;
+    background-color: #999 !important;
 }
 
 #Titulo {
-    color: white;
+    color: black;
     font-size: 30px;
 }
 
@@ -56,14 +56,14 @@ body {
 }
 
 .modal-body {
-    background-color: #444;
+    background-color: #999;
 }
 
 .modal-header {
-    background-color: #444;
+    background-color: #999;
 }
 
 .modal-footer {
-    background-color: #444 !important;
+    background-color: #999 !important;
 }
 
