@@ -2,7 +2,7 @@ html {
   height: 100%;
   background-position: center;
   background-size: cover;
-  background-color: black;
+  background-color: white;
 }
 
 * {
@@ -14,17 +14,17 @@ html {
 
 p {
   text-align: justify;
-  color: white;
+  color: black;
 
 }
 
 body {
-  color: white;
+  color: black;
 
 }
 
 main {
-  background-color: black;
+  background-color: #999;
   width: 100%;
   max-width: 800px;
   padding: 5px 40px;
@@ -37,9 +37,10 @@ main {
 
 .geral0 {
   border-style: solid;
-  border-color: crimson;
-  background-color: #444;
+  border-color: red;
+  background-color: #999;
   display: block;
+  margin-bottom: 30px;
 }
 
 .band-name,
@@ -63,14 +64,14 @@ main {
 }
 
 .concerts table {
-  background: #cb3a3ab3;
+  background: red;
   border-radius: 10px;
   padding: 10px;
   margin: 0 auto;
 }
 
 ul {
-  color: white;
+  color: black;
 }
 
 header .menu {
@@ -94,7 +95,7 @@ header .menu li {
 }
 
 header .menu a {
-  color: white;
+  color: black;
   padding: 8px 12px;
 }
 
@@ -104,7 +105,7 @@ a {
 
 header .menu .ativo,
 header .menu a:hover {
-  color: white;
+  color: black;
   background-color: red;
   border-radius: 3px;
   transition: 200ms;
@@ -113,7 +114,7 @@ header .menu a:hover {
 .men {
   display: block;
   justify-content: space-between;
-  background-color: #444;
+  background-color: #999;
   width: 100%;
   max-width: 800px;
   padding: 5px 40px;
@@ -124,7 +125,7 @@ header .menu a:hover {
 
 .menu {
   color: white;
-  background-color: #444;
+  background-color: #999;
   width: 20%;
   height: 500px;
   text-align: center;
@@ -149,7 +150,7 @@ header .menu a:hover {
 }
 
 .sobre {
-  color: white;
+  color: black;
   text-align: justify;
   font-size: 16px;
   width: 64%;
@@ -193,7 +194,7 @@ header .menu a:hover {
 
 .titulogeral0 {
   display: inline;
-  color: white;
+  color: black;
   margin-left: 480px;
   position: absolute;
   margin-top: 120px;
@@ -214,9 +215,9 @@ header .menu a:hover {
 }
 
 .geral1 {
-  color: white;
+  color: black;
   border-color: forestgreen;
-  background-color: #444;
+  background-color: #999;
   width: 20%;
   display: inline-table;
   height: 500px;

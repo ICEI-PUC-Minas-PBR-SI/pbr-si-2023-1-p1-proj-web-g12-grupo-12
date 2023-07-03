@@ -17,26 +17,26 @@
     <nav class="navbar bg-body-tertiary" id="cabecalho">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                <img src="img/cruz-vermelha-removebg-preview.png" alt="Logo" width="60" height="40"
                     class="d-inline-block align-text-top">
                 <span id="Titulo">BloodBridge</span>
             </a>
         </div>
     </nav>
     <div id="login">
-        <h3 class="text-center text-white pt-5">Novo Usuário</h3>
+        <h3 class="text-center text-dark pt-5"></h3>
         <div class="container">
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
-                            <h3 class="text-center text-info text-white">Login</h3>
+                            <h3 class="text-center text-info text-dark">Login</h3>
                             <div class="form-group">
-                                <label for="username" class="text-info text-white">Usuário</label><br>
+                                <label for="username" class="text-info text-dark">Usuário</label><br>
                                 <input type="text" name="username" id="username" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="password" class="text-info text-white">Senha</label><br>
+                                <label for="password" class="text-info text-dark">Senha</label><br>
                                 <input type="password" name="password" id="password" class="form-control">
                             </div>
                             <div class="form-group text-right">
@@ -161,6 +161,10 @@
             addUser(nome, login, senha, email, tipo_sanguineo, cidade, estado, cpf);
             alert('Usuário salvo com sucesso. Proceda com o login para ');
 
+            // Limpar os campos do formulário
+            document.getElementById('login-form').reset();
+
+            
             // Oculta a div modal do login
             //document.getElementById ('loginModal').style.display = 'none';
             $('#loginModal').modal('hide');
@@ -171,7 +175,22 @@
 
 
         // Associar salvamento ao botao
-        document.getElementById('btn_salvar').addEventListener('click', salvaLogin);        
+        document.getElementById('btn_salvar').addEventListener('click', salvaLogin); 
+        
+        // Limpa os campos do formulário de cadastro quando o botão "Novo usuário" é clicado
+        function novoUsuario() {
+        document.getElementById('txt_login').value = '';
+        document.getElementById('txt_nome').value = '';
+        document.getElementById('txt_email').value = '';
+        document.getElementById('txt_tipo_sanguineo').value = '';
+        document.getElementById('txt_cidade').value = '';
+        document.getElementById('txt_estado').value = '';
+        document.getElementById('txt_cpf').value = '';
+        document.getElementById('txt_senha').value = '';
+        document.getElementById('txt_senha2').value = '';
+        }
+
+        document.getElementById('btn_nusuario').addEventListener('click', novoUsuario);
     </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

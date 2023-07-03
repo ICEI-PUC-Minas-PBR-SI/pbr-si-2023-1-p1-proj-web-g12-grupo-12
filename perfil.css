@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .fotoperfil {
@@ -17,7 +17,7 @@ body {
 
 .titulogeral0 {
     display: inline;
-    color: white;
+    color: black;
     margin-left: 460px;
     position: absolute;
     margin-top: 120px;
@@ -42,25 +42,26 @@ body {
 
 .geral0 {
     border-style: solid;
-    border-color: crimson;
-    background-color: #444;
+    border-color: red;
+    background-color: #999;
     display: block;
 }
 
 .geral {
+    border-color: white;
     border-style: solid;
     display: inline-flex;
     width: 75%;
 }
 
 .abaesquerda {
-    color: white;
+    color: black;
     text-align: justify;
     font-size: 16px;
     width: 15%;
     margin: 30px;
-    border-color: blueviolet;
-    background-color: #444;
+    border-color: red;
+    background-color: #999;
     padding-left: 5px;
     display: inline-block;
     border-radius: 10px;
@@ -68,7 +69,7 @@ body {
 }
 
 .sobre {
-    color: white;
+    color: black;
     text-align: justify;
     font-size: 16px;
     width: 64%;
@@ -86,15 +87,15 @@ body {
     text-align: center;
     font-size: 32px;
     border-style: solid;
-    border-color: darkorange;
+    border-color: white;
     border-radius: 12px;
     margin-top: 5px;
 }
 
 .geral1 {
-    color: white;
-    border-color: forestgreen;
-    background-color: #444;
+    color: black;
+    border-color: red;
+    background-color: #999;
     width: 20%;
     display: inline-table;
     height: 500px;
@@ -106,7 +107,7 @@ body {
 }
 
 .username {
-    color: white;
+    color: black;
     background-color: red;
     border-radius: 3px;
     transition: 200ms;
@@ -120,7 +121,7 @@ body {
 }
 
 .bloodtype {
-    color: white;
+    color: black;
     background-color: red;
     border-radius: 3px;
     transition: 200ms;
@@ -134,7 +135,7 @@ body {
 }
 
 .location {
-    color: white;
+    color: black;
     background-color: red;
     border-radius: 3px;
     transition: 200ms;
@@ -148,7 +149,7 @@ body {
 }
 
 .email {
-    color: white;
+    color: black;
     background-color: red;
     border-radius: 3px;
     transition: 200ms;
@@ -162,7 +163,7 @@ body {
 }
 
 .number {
-    color: white;
+    color: black;
     background-color: red;
     border-radius: 3px;
     transition: 200ms;
@@ -176,7 +177,8 @@ body {
 }
 
 .historico {
-    border-color: #444;
+    color: black;
+    border-color: #999;
     border-bottom: red;
     border-style: dashed;
     padding-bottom: 8px;
@@ -196,5 +198,5 @@ body {
 }
 
 ::placeholder {
-    color: white;
+    color: black;
 }
